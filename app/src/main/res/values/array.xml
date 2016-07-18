@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_bus_values">
+        <item>a1</item>
+        <item>a2</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d1</item>
+        <item>d2</item>
+        <item>bt</item>
+        <item>us</item>
+        <item>ul</item>
+    </string-array>
+
+    <string-array name="pref_bus_options">
+        <item>A1</item>
+        <item>A2</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D1</item>
+        <item>D2</item>
+        <item>BTC</item>
+        <item>UT-Science</item>
+        <item>UT-Central Library</item>
+    </string-array>
+
+</resources>

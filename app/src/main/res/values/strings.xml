@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NusBus</string>
+    <string name="title_activity_maps">NUS bus</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_bus_label">Bus</string>
+    <string name="pref_bus_key">bus</string>
+    <string name="pref_bus_default">a1</string>
+    <string name="pref_status_key">status</string>
+    <string name="pref_status_default">false</string>
+    <string name="pref_status_label">Running</string>
+</resources>

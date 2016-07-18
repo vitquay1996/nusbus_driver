@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:persistent="false"
+        android:title="STEP 1"
+        android:summary="Change the bus tab to your bus"/>
+
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:persistent="false"
+        android:title="STEP 2"
+        android:summary="Turn on running when bus is running"/>
+
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:persistent="false"
+        android:title="STEP 3"
+        android:summary="Turn off running when bus stops"/>
+
+    <ListPreference
+        android:title = "@string/pref_bus_label"
+        android:key = "@string/pref_bus_key"
+        android:defaultValue = "@string/pref_bus_default"
+        android:entryValues = "@array/pref_bus_values"
+        android:entries = "@array/pref_bus_options" />
+
+    <SwitchPreference
+        android:key="@string/pref_status_key"
+        android:title="@string/pref_status_label"
+        android:defaultValue="@string/pref_status_default" />
+
+
+</PreferenceScreen>
